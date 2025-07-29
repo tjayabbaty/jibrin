@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Login - JibrinBalaTauheed</title>
+  <style>
+    body {
+      background-color: #ffeaea;
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    .container {
+      max-width: 400px;
+      margin: 60px auto;
+      background-color: white;
+      padding: 30px;
+      border-radius: 10px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    h2 {
+      text-align: center;
+      color: red;
+    }
+    label {
+      font-weight: bold;
+      margin-top: 20px;
+      display: block;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-top: 8px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: red;
+      color: white;
+      font-size: 16px;
+      border: none;
+      margin-top: 20px;
+      border-radius: 5px;
+    }
+    button:hover {
+      background-color: darkred;
+    }
+    .signup-link {
+      text-align: center;
+      margin-top: 15px;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <h2>Login</h2>
+    <form action="main.html" method="get">
+      <label>Password</label>
+      <input type="password" name="password" required>
+
+      <button type="submit">Login</button>
+
+      <div class="signup-link">
+        Don't have an account? <a href="signup.html">Sign Up Here</a>
+      </div>
+    </form>
+  </div>
+
+</body>
+</html>
